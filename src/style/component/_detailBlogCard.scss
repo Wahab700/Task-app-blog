@@ -1,0 +1,110 @@
+.card-details-wraper {
+  .wraper {
+    max-width: 80%;
+    margin: auto;
+  }
+  .top-content {
+    .top-row {
+      display: flex;
+      color: grey;
+      font-weight: 600;
+      .views {
+        margin-left: 20px;
+      }
+      .date {
+        font-family: "Manrope";
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: #939191;
+      }
+      .seen_icon {
+        margin-right: 10px;
+        margin-left: -18px;
+      }
+    }
+    .main-title {
+      color: #1e1b1b;
+      font-weight: 700;
+      font-size: 48px;
+    }
+    .desc {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 28px;
+      color: #232536;
+      opacity: 0.6;
+    }
+  }
+  .bottom-image {
+    img {
+      width: 100%;
+      height: 350px;
+      margin-bottom: 40px;
+    }
+  }
+  .bootom-content-main {
+    padding: 50px 0px;
+    img {
+      width: 100%;
+      height: auto;
+      display: inline-block;
+      margin: 30px auto;
+    }
+    .title {
+      font-weight: 700;
+      font-size: 40px;
+      color: #1e1b1b;
+    }
+    .desc {
+      font-weight: 600;
+      font-size: 16px;
+      color: #232536;
+      opacity: 0.6;
+    }
+    .left-border-box {
+      padding: 25px 20px;
+      border-left: 3.5px solid #000;
+      margin: 20px auto;
+      font-weight: 600;
+      font-size: 18px;
+      color: #232536;
+    }
+  }
+}
+
+.sub-title {
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+  opacity: 0.6;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  .main-title {
+    color: #1e1b1b;
+    font-weight: 700;
+    font-size: 35px !important;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 30px !important;
+    color: #1e1b1b;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-title {
+    color: #1e1b1b;
+    font-weight: 700;
+    font-size: 25px !important;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 23px !important;
+    color: #1e1b1b;
+  }
+}
